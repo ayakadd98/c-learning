@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+  int n,i,s;
+   printf("this program Calculate the factorial of a number n positive \n");
+  do {
+   printf("enter n :\n");
+   scanf("%d",&n);}
+    while(n<=0);
+
+  s=1;
+  for(i=1;i<=n;i++) {
+   s=s*i;
+    }
+  printf("%d",s);
+    return 0;
+}
